@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.itswisdomagain.developers.StartActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meet_developers"
+        android:paddingTop="5dp"
+        android:paddingBottom="15dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#666"/>
+
+    <TextView
+        android:id="@+id/btnJDL"
+        android:onClick="itemClicked"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Java Developers\nLagos"
+        android:gravity="bottom"
+        android:background="@drawable/lagos_bg_selector"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:padding="16dp" />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="More\nComing soon..."
+        android:gravity="bottom"
+        android:background="@drawable/ripple_selector"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:padding="16dp" />
+
+</LinearLayout>
